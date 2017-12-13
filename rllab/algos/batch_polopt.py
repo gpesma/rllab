@@ -21,6 +21,8 @@ class BatchSampler(BaseSampler):
 
     def obtain_samples(self, itr):
         cur_params = self.algo.policy.get_param_values()
+        #print(self.algo.batch_size)
+        
         paths = parallel_sampler.sample_paths(
             policy_params=cur_params,
             max_samples=self.algo.batch_size,
@@ -53,7 +55,7 @@ class BatchPolopt(RLAlgorithm):
             discount=0.99,
             gae_lambda=1,
             plot=False,
-            pause_for_plot=False,
+            pause_for_plot=True,
             center_adv=True,
             positive_adv=False,
             store_paths=False,

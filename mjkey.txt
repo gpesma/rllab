@@ -1,0 +1,20 @@
+MuJoCo Pro Trial license activation key, number 95629, type 6.
+
+Issued to Georgios Pesmazoglou <gpesmazoglou@gmail.com>.
+
+Expires December 29, 2017.
+
+This file activates MuJoCo Pro on a single computer with id:
+OSX_61DGE_516S028HX2NPSYSV24CPSLMA046
+
+Do not modify this file. Its entire content, including the
+plain text section, is used by the activation manager.
+
+d69f8c294d7d8caa4a676a91cbb27d553c97077d56be80d9546c3a3e8a9f6d5c
+942e985756d759259782388061fb9d524db79c62ff8aba1e62c8e12a12c136f1
+6879822ad8ddea5c8b8ccfbdb7ccc65cdefbc67d10c0bada37ec812cc7aaffe7
+865dc7ea29c87ac86cbfee3f0f2882912a37c3303f9d7382d708776736e1f116
+ccf5edb356f5bbe84ee597bf3bc6af1f20c4d7028457a2994639b40e4decb04f
+f8e51ac0015c31ac8cf7ea60c82d78f0c5f1b9054d9268b24c399aaf32fd0863
+1aa480772bc0e0dbf4ba8d263d95efbc874ef8e4a866a6adce1f09e68a98177b
+9ec1d0f9de1e3a9b932885657a1f9e3c81cad44a6a525454ba21a376da40beae
