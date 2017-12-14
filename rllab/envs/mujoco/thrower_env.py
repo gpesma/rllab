@@ -24,6 +24,7 @@ class ThrowerEnv(MujocoEnv, Serializable):
         Serializable.quick_init(self, locals())
         self._ball_hit_ground = False
         self._ball_hit_location = None
+        self.it = 0
 
     def get_current_obs(self):
         return np.concatenate([
@@ -36,7 +37,8 @@ class ThrowerEnv(MujocoEnv, Serializable):
 
 
     def step(self, action):
-        #self.render()
+        if self.it > 400:
+            self.render()
         self.forward_dynamics(action)
         next_obs = self.get_current_obs()
         ball_xy = self.get_body_com("ball")[:2]
@@ -47,6 +49,7 @@ class ThrowerEnv(MujocoEnv, Serializable):
         if not self._ball_hit_ground and self.get_body_com("ball")[2] < -0.25:
             self._ball_hit_ground = True
             self._ball_hit_location = self.get_body_com("ball")
+            self.it += 1
 
         if self._ball_hit_ground:
             ball_hit_xy = self._ball_hit_location[:2]
